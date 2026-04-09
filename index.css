@@ -1,0 +1,151 @@
+body {
+    font-family: "Manrope", sans-serif;
+    background-color: #FFFFFF;
+    margin: 0;
+    padding: 0;
+}
+.welcome {
+    color: #000000;
+    margin-left: 20px;
+    margin-top: 0%;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: #ffffff;
+    padding-top: 20px;
+    padding-right: 10px;
+    box-shadow: #C1C5DD 0px 0px 4px;}
+nav a {
+  text-decoration: none;
+  color: #2151DA;
+  margin-left: 20px;
+  font-weight: bold;
+  transition: background 0.3s ease, color 0.3s ease;
+}
+nav a:hover {
+  background-color: #C1C5DD;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 5px;
+  transition: padding 0.3s ease, background 0.3s ease, color 0.3s ease;
+}
+.welcome-message {
+    position: relative;
+    color: #4f5364;
+    margin-left: 20px;
+    margin-bottom: 5px;
+}
+.btn {
+    height: 50px;
+    width: 200px;
+    position: absolute;
+    right: 20px;
+    bottom: 5px;
+    background-color: #2151DA;
+    color: white;
+    border: none;
+    padding: 5px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+.btn:hover {
+  background-color: #002682;
+}
+.fa-play {
+    position: absolute;
+    right: 180px;
+    bottom: 20px;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+}
+h4 {
+    color: #555;
+    margin-top: 0%;
+    margin-left: 20px;
+    
+}
+.card {
+    position: relative;
+    height: 300px;
+  width: 300px;
+  margin-left: 20px;
+  padding: 20px;
+  background: #DDE1F9;
+  border-radius: 15px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+}
+.fa-bar-chart {
+  display: flex;
+  justify-content: right;
+  align-items: bottom;
+  margin-left: 40%;
+}
+.number {
+  font-size: 24px;
+  font-weight: bold;
+  color: #0039B5;
+}
+.text {
+  font-size: 16px;
+  color: #7a7777;
+}
+.circle {
+  margin-top: 20px;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  
+  background: conic-gradient(
+    #0039B5 75%,
+    #fff 75%
+  );
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.circle span {
+  width: 70px;
+  height: 70px;
+  background: white;
+  border-radius: 50%;
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-weight: bold;
+}
+.latestcard {
+    border-radius: 15px;
+    padding: 20px;
+    margin-left: 400px;
+    width: 1045px;
+    height: 300px;
+    background-color:#DDE1F9;
+}
+.fa-trophy {
+    position: absolute;
+    right: 20px;
+    top: 50px;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+}
+.recentcard {
+    position: absolute;
+    border-radius: 15px;
+    padding: 20px;
+    width: 1595px;
+    height: 300px;
+    background-color:#DDE1F9;
+}
+.icon{
+    border-radius: 5px;
+    position: absolute;
+    margin-left: 0px;
+    width: 50px;
+    height: 50px;
+    background-color: #A6AAC1;
+}
