@@ -72,7 +72,7 @@ h4 {
   width: 300px;
   margin-left: 20px;
   padding: 20px;
-  background: #DDE1F9;
+  background: #F2F0F6;
   border-radius: 15px;
   box-shadow: 0 5px 15px rgba(0,0,0,0.05);
 }
@@ -124,7 +124,7 @@ h4 {
     margin-left: 400px;
     width: 1045px;
     height: 300px;
-    background-color:#DDE1F9;
+    background-color:#F2F0F6;
 }
 .fa-trophy {
     position: absolute;
@@ -139,7 +139,7 @@ h4 {
     padding: 20px;
     width: 1595px;
     height: 300px;
-    background-color:#DDE1F9;
+    background-color:#F2F0F6;
 }
 .icon{
     border-radius: 5px;
@@ -148,4 +148,45 @@ h4 {
     width: 50px;
     height: 50px;
     background-color: #A6AAC1;
+}
+.page {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.mycourses-text{
+    color: #1B1B20;
+    opacity: 0.8;
+}
+.box{
+    margin-left: 1.3%;
+    width: 60%;
+    height: 50px;
+    border:none;
+    border-radius: 3px;
+    background-color:#F2F0F6;
+    opacity: 0.8;
+    font-size: 15px;
+    margin-bottom: 2%;
+}
+.mycourses-input  {
+    margin-left: 1.2%;
+    color: #414659;
+}
+.provider{
+    width: 30%;
+    margin: 0%;
+    margin-left: 0.9%;
+}
+.category{
+    width: 32%;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    gap: 0px;
+    margin-bottom: 2%;
+}
+.description{
+  
 }

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>  
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="C:\Users\C2D\OneDrive\Documents\IT\IT task 1\font-awesome-4.7.0\css\font-awesome.min.css">
+    <link rel="stylesheet" href="index.css">
+    <title>Home</title>
+ </head>
+ <body>
+ <div class="page">
+  <div class="header">
+        <header class="navbar">
+                <h2 class="welcome">CoursesPO</h2>
+                <nav>
+                    <a href="index.htm">Home</a>
+                    <a href="mycourses.htm">My Courses</a>
+                    <a href="addcourses.htm">Add Courses</a>
+                    <a href="contactus.htm">Contact Us</a>
+                </nav>
+        </header>
+   </div>
+    <div class="welcome-message">
+     <h1 style="margin-top: 1%;margin-bottom: 0%; color: #0039B5; font-size: 40px;">Create New Course</h1>
+        <div class="text">
+         <p style="margin-top: 0px; margin-bottom: 0px;">Expand the digital archive. Provide the architectural foundation for a new learning</p>
+         <p style="margin-top: 0px; margin-bottom: 50px;">experience.</p>
+       </div>
+     </div>
+     <form class="mycourses">
+        <div class="coursetitle" style="width: 81%;">
+            <div class="mycourses-text">
+             <label for="course-title" style="margin-left: 1.1%;">Course Title</label>
+            </div>
+            <input class="box" type="text" id="course-title" name="course-title" placeholder="e.g., The Modernist Architecture of Scandinavia" required style="padding-left: 1%;">
+        </div>
+        <div class="row">
+            <div class="provider">
+                <div class="mycourses-text">
+                    <label for="course-provider" style="margin-left: 1.1%;">Provider</label>
+                </div>
+                <input class="box" type="text" id="course-provider" name="course-provider" placeholder="Institution Name" required style="padding-left: 3%;">
+            </div>
+            <div class="category">
+                <div class="mycourses-text">
+                    <label for="course-category" style="margin-left: 0.9%;">Category</label>
+                </div>
+                <select class="box" id="course-category" name="course-category" required style="padding-left: 1%;">
+                    <option value="architecture">Architecture</option>
+                    <option value="design">Design</option>
+                    <option value="urban">Urban Planning</option>
+                    <option value="interior">Interior Design</option>
+                </select>
+            </div>
+        </div>
+        <div class="row">
+            <div class="provider">
+                <div class="mycourses-text">
+                    <label for="course-provider" style="margin-left: 1.1%;">Start date</label>
+                </div>
+                <input class="box" type="date" id="course-provider" name="course-provider" required style="padding-left: 3%;">
+            </div>
+            <div class="category">
+                <div class="mycourses-text">
+                    <label for="course-category" style="margin-left: 0.9%;">Duration</label>
+                </div>
+                <input class="box" type="text" id="course-category" name="course-category" placeholder="e.g., 6 weeks" required style="padding-left: 1%; width:59%;">
+            </div>
+        </div>
+        <div class="description" style="width: 81%;">
+            <div class="mycourses-text">
+             <label for="course-title" style="margin-left: 1.1%;">ABSTRACT / DESCRIPTION</label>
+            </div>
+            <textarea class="box" id="course-description" name="course-description" placeholder="Articulate the core objectives and thematic journey of this course..." required style="padding: 1%; height: 150px;"></textarea>
+        </div>
+        <button class="btn" type="submit" style="right: 49%; top: 85%; font-size: 16.5px;">Publish Course</button>
+        <p style="position: absolute; right: 65%; top: 84.7%; color: #0039B5; cursor: pointer; font-size: 16.5px;">Discard Draft</p>
+    </form>
+    </div>
+        <footer style="width: 100%; padding-top: 10px; padding-bottom: 10px; background-color: #ffffff; text-align: center; box-shadow: #C1C5DD 0px -2px 4px;">
+            <span style="color: #555;">&copy; 2026 CoursesPO. All rights reserved.</span>
+        </footer>
+  </body>
