@@ -1,3 +1,8 @@
+@property --progress {
+  syntax: '<percentage>';
+  inherits: false;
+  initial-value: 0%;
+}
 body {
     font-family: "Manrope", sans-serif;
     background-color: #FFFFFF;
@@ -29,6 +34,15 @@ nav a:hover {
   padding: 5px 10px;
   border-radius: 5px;
   transition: padding 0.3s ease, background 0.3s ease, color 0.3s ease;
+}
+ .prog{
+  animation: fillprog 2s ease-in-out forwards;
+}
+@keyframes fillprog {
+  
+  from {
+    width: 0;
+  }
 }
 .welcome-message {
     position: relative;
@@ -96,17 +110,26 @@ h4 {
   width: 100px;
   height: 100px;
   border-radius: 50%;
-  
+  --progress : 0%;
   background: conic-gradient(
-    #0039B5 75%,
-    #fff 75%
+    #0039B5 var(--progress, 0%),
+    #fff var(--progress, 0%)
   );
   display: flex;
   align-items: center;
   justify-content: center;
+  animation: fullcircle 2s ease-in-out forwards;
+}
+@keyframes fullcircle {
+  from {
+    --progress: 0%;
+  }
+  to{
+    --progress: 75%;
+  }
 }
 
-.circle span {
+/*.circle span {
   width: 70px;
   height: 70px;
   background: white;
@@ -117,7 +140,7 @@ h4 {
   justify-content: center;
 
   font-weight: bold;
-}
+}*/
 .latestcard {
     border-radius: 15px;
     padding: 20px;
