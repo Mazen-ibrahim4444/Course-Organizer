@@ -27,6 +27,7 @@ nav a {
   margin-left: 20px;
   font-weight: bold;
   transition: background 0.3s ease, color 0.3s ease;
+  transition: padding 0.3s ease, background 0.3s ease, color 0.3s ease;
 }
 nav a:hover {
   background-color: #C1C5DD;
