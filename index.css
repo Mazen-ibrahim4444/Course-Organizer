@@ -28,6 +28,7 @@ nav a {
   font-weight: bold;
   transition: background 0.3s ease, color 0.3s ease;
   transition: padding 0.3s ease, background 0.3s ease, color 0.3s ease;
+
 }
 nav a:hover {
   background-color: #C1C5DD;
@@ -65,8 +66,25 @@ nav a:hover {
     cursor: pointer;
     transition: 0.3s ease;
 }
+.btn2{
+    height: 50px;
+    width: 200px;
+    position: absolute;
+    right: 20px;
+    bottom: 5px;
+    background-color: #A6AAC1;
+    color: white;
+    border: none;
+    padding: 5px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
 .btn:hover {
   background-color: #002682;
+}
+.btn2:hover{
+  background-color: #4f5364;
 }
 .fa-play {
     position: absolute;
@@ -129,19 +147,6 @@ h4 {
     --progress: 75%;
   }
 }
-
-/*.circle span {
-  width: 70px;
-  height: 70px;
-  background: white;
-  border-radius: 50%;
-  
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
-  font-weight: bold;
-}*/
 .latestcard {
     border-radius: 15px;
     padding: 20px;
@@ -211,6 +216,63 @@ h4 {
     gap: 0px;
     margin-bottom: 2%;
 }
-.description{
-  
+.card-current{
+    position: absolute;
+    border-radius: 15px;
+    padding: 0px;
+    width: 50%;
+    height: 550px;
+    background-color:#F2F0F6;
+    margin-top: 15%;
+    margin-left: 1.3%;
+}
+.info{
+    position: absolute;
+    border-radius: 15px;
+    padding: 0px;
+    width: 30%;
+    height: 300px;
+    background-color:#F2F0F6;
+    margin-top: 15%;
+    margin-left: 65%;
+}
+.time{
+    position: absolute;
+    border-radius: 15px;
+    padding: 0px;
+    width: 30%;
+    height: 100px;
+    background-color:#F2F0F6;
+    margin-top: 15%;
+    margin-left: 20%;
+}
+.time-logo{
+    position: absolute;
+    right: 85%;
+    top: 26%;
+    font-size: 20px;
+    background-color: #A6AAC1;
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+}
+.certificate{
+    position: absolute;
+    border-radius: 15px;
+    padding: 0px;
+    width: 100%;
+    height: 100%;
+    margin-top: 20%;
+    margin-left: 0%;
+}
+.tier{
+  position: absolute;
+    border-radius: 15px;
+    padding: 0px;
+    width: 30%;
+    height: 210px;
+    background-color:#0039B5;
+    margin-top: 35%;
+    margin-left: 65%;
+    color: #ffffff;
 }
