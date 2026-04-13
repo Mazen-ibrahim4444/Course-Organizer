@@ -305,7 +305,7 @@ h4 {
     flex-direction: column;
   }
   .card {
-    width: 70%;
+    width: 90%;
     margin-left: 10px;
     margin-bottom: 20px;
   }
@@ -320,12 +320,12 @@ h4 {
 
   }
   .latestcard{
-    width: 70%;
+    width: 90%;
     margin-left: 10px;
     margin-bottom: 20px;
   }
   .recentcard{
-    width: 70%;
+    width: 90%;
     margin-left: 10px;
     margin-bottom: 20px;
   }
@@ -365,15 +365,19 @@ h4 {
   color: #2151DA;
   font-size: 14px;
   font-weight: bold;
+  white-space: nowrap;
   transition: background 0.3s ease, color 0.3s ease;
   transition: padding 0.3s ease, background 0.3s ease, color 0.3s ease;
   }
   .navbar {
-    display: flex;
-    gap: 50px;
     background-color: #ffffff;
     padding-top: 20px;
     box-shadow: #C1C5DD 0px 0px 4px;
+  }
+  nav{
+    position: absolute;
+    left: 40%;
+    gap: 10px !important;
   }
     
 }
