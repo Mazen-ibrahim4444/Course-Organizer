@@ -303,10 +303,12 @@ h4 {
 @media (max-width: 768px) {
   .main {
     flex-direction: column;
+    margin-left: 2%;
   }
   .card {
-    width: 90%;
+    width: 85%;
     margin-bottom: 20px;
+    margin-left: 0% !important;
   }
   .btn{
     position: relative;
@@ -319,30 +321,29 @@ h4 {
 
   }
   .latestcard{
-    width: 90%;
-    margin-left: 2.5%;
+    width: 85%;
     margin-bottom: 20px;
   }
   .recentcard{
-    width: 90%;
-    margin-left: 2.5%;
+    width: 85%;
     margin-bottom: 20px;
+    margin-left: 0% !important;
   }
   #prog1 {
-    top: 40% !important;
+    top: 44% !important;
   }
   #comp1{
     position: absolute;
     top: 115px !important;
   }
   #prog2{
-    top: 63% !important;
+    top: 66% !important;
   }
   #comp2{
     top: 185px !important;
   }
   #prog3{
-    top: 85% !important;
+    top: 88% !important;
   }
   #comp3{
     top: 255px !important;
@@ -362,9 +363,10 @@ h4 {
   nav a {
   text-decoration: none;
   color: #2151DA;
-  font-size: 14px;
+  font-size: 12px;
   font-weight: bold;
   white-space: nowrap;
+  margin-left: 0% !important;
   transition: background 0.3s ease, color 0.3s ease;
   transition: padding 0.3s ease, background 0.3s ease, color 0.3s ease;
   }
@@ -374,8 +376,9 @@ h4 {
     box-shadow: #C1C5DD 0px 0px 4px;
   }
   nav{
-    position: absolute;
-    left: 40%;
+    margin-left: 5%;
+    display: flex;
+    flex-wrap: wrap;
     gap: 10px !important;
   }
     
