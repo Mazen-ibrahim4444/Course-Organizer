@@ -35,7 +35,7 @@
             <div class="mycourses-text">
              <label for="course-title" style="margin-left: 1.1%;">Course Title</label>
             </div>
-            <input class="box" type="text" id="course-title" name="course-title" placeholder="e.g., The Modernist Architecture of Scandinavia" required style="padding-left: 1%;">
+            <input class="box" type="text" id="course-title" name="course-title" placeholder="e.g., The Modernist Architecture of Scandinavia" required>
         </div>
         <div class="row">
             <div class="provider">
@@ -46,7 +46,7 @@
             </div>
             <div class="category">
                 <div class="mycourses-text">
-                    <label for="course-category" style="margin-left: 0.9%;">Category</label>
+                    <label id="cat" for="course-category" style="margin-left: 0.9%;">Category</label>
                 </div>
                 <select class="box" id="course-category" name="course-category" required style="padding-left: 1%;">
                     <option value="architecture">Architecture</option>
@@ -65,7 +65,7 @@
             </div>
             <div class="category">
                 <div class="mycourses-text">
-                    <label for="course-category" style="margin-left: 0.9%;">Duration</label>
+                    <label id="cat" for="course-category" style="margin-left: 0.9%;">Duration</label>
                 </div>
                 <input class="box" type="text" id="course-category" name="course-category" placeholder="e.g., 6 weeks" required style="padding-left: 1%; width:59%;">
             </div>
@@ -77,8 +77,8 @@
             <textarea class="box" id="course-description" name="course-description" placeholder="Articulate the core objectives and thematic journey of this course..." required style="padding: 1%; height: 150px;"></textarea>
         </div>
     </form>
-    <button class="btn" type="submit" style="font-size: 16.5px; position: relative;margin-left: 38%;">Publish Course</button>
-        <p style="color: #0039B5; cursor: pointer; font-size: 16.5px; margin-left: 25%; margin-top: -40px;">Discard Draft</p>
+    <button id="pubbut" class="btn" type="submit" style="font-size: 16.5px; position: relative;margin-left: 40%;">Publish Course</button>
+        <p id="discard" style="color: #0039B5; cursor: pointer; font-size: 16.5px; margin-left: 25%; margin-top: -40px;">Discard Draft</p>
     </div>
   </body>
     <footer style="width: 100%; padding-top: 10px; padding-bottom: 10px; background-color: #ffffff; text-align: center; box-shadow: #C1C5DD 0px -2px 4px;">
