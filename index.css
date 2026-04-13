@@ -6,6 +6,7 @@
 body {
     font-family: "Manrope", sans-serif;
     background-color: #FFFFFF;
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
@@ -15,17 +16,19 @@ body {
     margin-top: 0%;
 }
 .navbar {
+    overflow: hidden;
     display: flex;
     justify-content: space-between;
     background-color: #ffffff;
     padding-top: 20px;
-    padding-right: 10px;
-    box-shadow: #C1C5DD 0px 0px 4px;}
+    box-shadow: #C1C5DD 0px 0px 4px;
+    box-sizing: border-box;
+  }
 nav a {
   text-decoration: none;
   color: #2151DA;
-  margin-left: 20px;
   font-weight: bold;
+  margin-left: 20px;
   transition: background 0.3s ease, color 0.3s ease;
   transition: padding 0.3s ease, background 0.3s ease, color 0.3s ease;
 
@@ -296,4 +299,81 @@ h4 {
   display: flex;
   gap: 30px;
   padding-right: 0.7%;
+}
+@media (max-width: 768px) {
+  .main {
+    flex-direction: column;
+  }
+  .card {
+    width: 70%;
+    margin-left: 10px;
+    margin-bottom: 20px;
+  }
+  .btn{
+    position: relative;
+    padding: 0px 20px;
+    margin-left: 2%;
+  }
+  .fa-play{
+    position: absolute;
+    left: 3%;
+
+  }
+  .latestcard{
+    width: 70%;
+    margin-left: 10px;
+    margin-bottom: 20px;
+  }
+  .recentcard{
+    width: 70%;
+    margin-left: 10px;
+    margin-bottom: 20px;
+  }
+  #prog1 {
+    top: 40% !important;
+  }
+  #comp1{
+    position: absolute;
+    top: 115px !important;
+  }
+  #prog2{
+    top: 63% !important;
+  }
+  #comp2{
+    top: 185px !important;
+  }
+  #prog3{
+    top: 85% !important;
+  }
+  #comp3{
+    top: 255px !important;
+  }
+  #icon1{
+    top: 30%;
+  }
+  #icon2{
+    top: 52% !important;
+  }
+  #icon3{
+    top: 74% !important;
+  }
+  nav{
+    width: 100%;
+  }
+  nav a {
+  text-decoration: none;
+  color: #2151DA;
+  font-size: 14px;
+  font-weight: bold;
+  transition: background 0.3s ease, color 0.3s ease;
+  transition: padding 0.3s ease, background 0.3s ease, color 0.3s ease;
+  }
+  .navbar {
+    display: flex;
+    gap: 50px;
+    background-color: #ffffff;
+    padding-top: 20px;
+    box-shadow: #C1C5DD 0px 0px 4px;
+  }
+    
 }
