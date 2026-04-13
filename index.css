@@ -306,7 +306,6 @@ h4 {
   }
   .card {
     width: 90%;
-    margin-left: 10px;
     margin-bottom: 20px;
   }
   .btn{
@@ -321,12 +320,12 @@ h4 {
   }
   .latestcard{
     width: 90%;
-    margin-left: 10px;
+    margin-left: 2.5%;
     margin-bottom: 20px;
   }
   .recentcard{
     width: 90%;
-    margin-left: 10px;
+    margin-left: 2.5%;
     margin-bottom: 20px;
   }
   #prog1 {
