@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="C:\Users\C2D\OneDrive\Documents\IT\IT task 1\font-awesome-4.7.0\css\font-awesome.min.css">
+    <link rel="stylesheet" href="index.css">
+    <title>Contact Us</title>
+ </head>
+ <body>
+ <div class="page">
+    <div class="header">
+        <header class="navbar">
+                <h2 class="welcome">CoursesPO</h2>
+                <nav>
+                    <a href="index.htm">Home</a>
+                    <a href="addcourses.htm">Add Courses</a>
+                    <a href="mycourses.htm">My Courses</a>
+                    <a href="contactus.htm">Contact Us</a>
+                </nav>
+        </header>
+   </div>
+   <div class="welcome-message">
+     <h1 style="margin-top: 1%;margin-bottom: 0%; color: #0039B5; font-size: 40px;">Get in Touch</h1>
+        <div class="text">
+         <p style="margin-top: 0px; margin-bottom: 0px;">Whether you're a curious student or a prospective curator, our digital archive doors are always open.</p>
+       </div>
+   </div>
+   <form class="mycourses">
+        <h2 id="send">Send a Message</h2>
+        <div class="row">
+            <div class="provider">
+                <div class="mycourses-text">
+                    <label for="course-provider" style="margin-left: 1.1%;">Name</label>
+                </div>
+                <input class="box" type="text" id="course-provider" name="course-provider" placeholder="Mazen">
+            </div>
+            <div class="category">
+                <div class="mycourses-text">
+                    <label id="cat" for="course-category" style="margin-left: 0.9%;">Email</label>
+                </div>
+                <input class="box" type="email" id="course-category" name="course-category" placeholder="mazen@gmail.com">
+            </div>
+        </div>
+        <div class="description" style="width: 81%;">
+            <div class="mycourses-text">
+             <label for="course-title" style="margin-left: 1.1%;">ABSTRACT / DESCRIPTION</label>
+            </div>
+            <textarea class="box" id="course-description" name="course-description" placeholder="Tell us how we can help your learning journey..." required style="padding: 1%; height: 150px;"></textarea>
+        </div>
+        <button class="btn" type="submit" style="font-size: 16.5px; position: relative; margin-left: 3%;" >Send Inquiry</button>
+    </form>
+</div>

@@ -319,7 +319,7 @@ h4 {
   .btn{
     position: relative;
     padding: 0px 20px;
-    margin-left: 2%;
+    left: 15px;
   }
   .fa-play{
     position: absolute;
@@ -396,7 +396,7 @@ h4 {
   }
   #course-category{
     margin-left: 30%;
-    width: 110% !important;
+    width: 140% !important;
   }
   #cat{
     margin-left: 30% !important;
@@ -443,10 +443,10 @@ h4 {
     width: 150px !important;
   }
   h3{
-    font-size: 15px !important;
+    font-size: 85% !important;
   }
   .row{
-    margin-left: 1.5%;
+    margin-left: 4%;
   }
   .other-row{
     flex-direction: column;
@@ -468,5 +468,14 @@ h4 {
   }
   #curr{
     top: 45% !important;
+  }
+  form{
+    margin-top: 20px;
+  }
+  #send{
+    margin-left: 4%;
+  }
+  .description{
+    margin-left: 4%;
   }
 }
