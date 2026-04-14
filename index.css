@@ -308,9 +308,6 @@ h4 {
   padding-right: 0.7%;
 }
 @media (max-width: 768px) {
-  * {
-    outline: 1px solid red !important;
-  }
   .main {
     flex-direction: column;
     margin-left: 2%;
